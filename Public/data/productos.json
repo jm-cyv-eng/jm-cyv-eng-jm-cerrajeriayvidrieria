@@ -1,0 +1,21 @@
+{
+  "espejos": [
+    { "titulo": "Espejo Redondo", "descripcion": "Consultá medidas y terminaciones.", "foto": "img/espejos/esp_Redondo.webp" },
+    { "titulo": "Espejo Capilla", "descripcion": "Consultá medidas y terminaciones.", "foto": "img/espejos/esp_Capilla.webp" },
+    { "titulo": "Espejo Rectangular", "descripcion": "Consultá medidas y terminaciones.", "foto": "img/espejos/esp_Rectangular.webp" },
+    { "titulo": "Espejo Pildora", "descripcion": "Consultá medidas y terminaciones.", "foto": "img/espejos/esp_Pildora.webp" }
+  ],
+  "mamparas": [
+    { "titulo": "Mampara fija transparente", "descripcion": "Consultá medidas y modelos disponibles.", "foto": "img/mamparas/mamp_fijaTransparente.webp" },
+    { "titulo": "Mampara fija esmerilada", "descripcion": "Consultá medidas y modelos disponibles.", "foto": "img/mamparas/mamp_fijaEsmerilada.webp" },
+    { "titulo": "Mampara fija perimetro de aluminio", "descripcion": "Consultá medidas y modelos disponibles.", "foto": "img/mamparas/mamp_perimetroAl.webp" },
+    { "titulo": "Mampara box", "descripcion": "Consultá medidas y modelos disponibles.", "foto": "img/mamparas/mamp_box.webp" },
+    { "titulo": "Mampara frontal corrediza", "descripcion": "Consultá medidas y modelos disponibles.", "foto": "img/mamparas/mamp_frontalCorrediza.webp" },
+    { "titulo": "Mampara con bisagras", "descripcion": "Consultá medidas y modelos disponibles.", "foto": "img/mamparas/mamp_bisagras.webp" }
+  ],
+  "herrajes": [
+    { "titulo": "Herrajes para puertas de vidrio", "descripcion": "Consultá modelos y disponibilidad.", "foto": "img/herrajes/herraje.webp" },
+    { "titulo": "Instalacion y service de frenos", "descripcion": "Consultá modelos y disponibilidad.", "foto": "img/herrajes/freno_piso.webp" },
+    { "titulo": "Instalacion de frenos aereos", "descripcion": "Consultá modelos y disponibilidad.", "foto": "img/herrajes/freno_aereo.webp" }
+  ]
+}
