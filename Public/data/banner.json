@@ -1,0 +1,8 @@
+{
+  "segundos": 5,
+  "imagenes": [
+    { "foto": "img/banner/trabajo-01.webp", "titulo": "Instalación de mamparas de baño" },
+    { "foto": "img/banner/trabajo-02.webp", "titulo": "Espejos retroiluminados" },
+    { "foto": "img/banner/trabajo-03.webp", "titulo": "Trabajos de cerrajeria" }
+  ]
+}
