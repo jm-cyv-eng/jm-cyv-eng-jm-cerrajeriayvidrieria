@@ -46,12 +46,7 @@ nav a:hover{color:var(--ink)}
 /* ===== Portada (hero) ===== */
 .hero{background:linear-gradient(180deg,#fff 0%,var(--soft) 100%);padding:48px 0 56px}
 .hero h1{font-size:clamp(1.9rem,6vw,3rem);margin-bottom:14px}
-.hero h1 span{color:var(--red)}
-.hero p{font-size:1.1rem;color:var(--gray);max-width:620px;margin-bottom:26px}
 .cta{display:flex;flex-wrap:wrap;gap:12px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
-.chips a{padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:#fff;text-decoration:none;font-weight:600;font-size:.92rem}
-.chips a:hover{border-color:var(--ink)}
 
 /* ===== Banner dinámico (se activa solo si hay imágenes) ===== */
 .banner{display:none}
@@ -64,17 +59,7 @@ nav a:hover{color:var(--ink)}
   overflow:hidden;
 }
 .hero.con-banner .banner{display:block;grid-area:1/1;position:relative}
-.hero.con-banner .hero-content{
-  grid-area:1/1;
-  position:relative;
-  z-index:2;
-  align-self:center;
-  width:100%;
-  padding-top:48px;
-  padding-bottom:96px;
-  pointer-events:none;
-}
-.hero.con-banner .hero-content a{pointer-events:auto}
+
 .hero.con-banner h1{color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.35)}
 .hero.con-banner p{color:#ececea}
 .hero.con-banner .btn-call{background:#fff;color:var(--ink)}
@@ -174,7 +159,6 @@ dialog img{width:100%;max-height:70vh;object-fit:contain;background:#111}
 .dlg-actions{display:flex;gap:8px}
 
 /* ===== Banner: título arriba y controles centrados ===== */
-.banner-ui{position:absolute;inset:0;max-width:none;margin:0;padding:0;display:block;pointer-events:none}
 .banner-ui > *{pointer-events:auto}
 .banner::after{content:"";position:absolute;inset:0 0 auto 0;height:50%;background:linear-gradient(180deg,rgba(17,18,19,.7),rgba(17,18,19,0));pointer-events:none}
 .banner-caption{
@@ -208,7 +192,7 @@ dialog img{width:100%;max-height:70vh;object-fit:contain;background:#111}
 /* ===== Móvil ===== */
 @media (max-width:759px){
   .thumb{height:200px}
-  .hero.con-banner{min-height:520px}
+  .hero.con-banner{min-height:360px}
   .banner-shade{background:linear-gradient(0deg,rgba(17,18,19,.88) 0%,rgba(17,18,19,.6) 60%,rgba(17,18,19,.45) 100%)}
   .banner-caption{display:none}
   .banner-ui{justify-content:center}
